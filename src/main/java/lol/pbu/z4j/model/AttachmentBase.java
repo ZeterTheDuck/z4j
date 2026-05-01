@@ -26,10 +26,11 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * AttachmentBase
+ * A file represented as an <a href=\"developer.zendesk.com/api-reference/ticketing/tickets/ticket-attachments/\">Attachment</a> object
  *
  * @author Jonathan-Zollinger
  * @since 0.1.1
+ * @see Attachment
  */
 @Accessors(chain = true)
 @NoArgsConstructor
